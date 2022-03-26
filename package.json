@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html"
+    "dev": "vite serve ./src/",
+    "build": "vite build ./src/ /",
+    "preview": "vite preview ./src/dist"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "2.4.0",
-    "autoprefixer": "^10.4.4",
-    "parcel": "^2.4.0",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23"
+    "sass": "^1.49.9",
+    "vite": "^2.8.6"
   },
   "dependencies": {}
 }

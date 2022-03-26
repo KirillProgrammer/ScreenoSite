@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 46px;
+    a {
+        margin-right: 86px;
+        &:first-of-type {
+            margin-right: 96px;
+        }
+        &:nth-of-type(4) {
+            margin-right: 285px;
+        }
+        &:nth-of-type(5) {
+            margin-right: 56px;
+        }
+        text-decoration: none;
+        color: #fff;
+    }
+}
