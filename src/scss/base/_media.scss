@@ -1,0 +1,219 @@
+@media(max-width:1440px) {
+    .container {
+        padding: 10px;
+    }
+    .promo {
+        &__wrapper {
+            grid-template-columns: 485px 610px;
+            column-gap: 50px;
+        }
+    }
+}
+
+@media(max-width: 1200px) {
+    .container {
+        max-width: 1024px;
+    }
+    nav {
+        a {
+            margin-right: 50px;
+            &:nth-of-type(4) {
+                margin-right: 200px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            grid-template-columns: 485px 440px;
+            column-gap: 50px;
+        }
+        &__col-2 {
+            img {
+                top: 0px;
+                width: 100%;
+            }
+        }
+    }
+    .help {
+        &__wrapper-1 {
+            grid-template-columns: 400px 505px;
+            column-gap: 50px;
+        }
+        &__wrapper-2 {
+            margin-top: 100px;
+            grid-template-columns: 505px 400px;
+            column-gap: 50px;
+        }
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    nav {
+        a {
+            margin-right: 30px;
+            &:nth-of-type(4) {
+                margin-right: 30px;
+            }
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 30px;
+            grid-template-columns: 300px 400px;
+            column-gap: 0px;
+            justify-content: space-between;
+        }
+        &__col-1 {
+            button {
+                margin-top: 15px;
+            }
+        }
+        &__col-2 {
+            img {
+                position: relative;
+                margin-top: 40px;
+            }
+        }
+        &__platforms {
+            margin-top: 90px;
+        }
+    }
+    .all {
+        padding: 70px 0 70px 0;
+        &__wrapper {
+            grid-template-columns: repeat(2, 230px);
+            grid-auto-rows: 150px;
+        }
+    }
+    .help {
+        &__subtitle {
+            font-size: 25px;
+            margin: 0;
+        }
+        &__wrapper-1 {
+            grid-template-columns: 505px;
+            grid-auto-rows: 300px;
+            .help__section {
+                justify-content: flex-start;
+            }
+        }
+        &__wrapper-2 {
+            grid-template-columns: 505px;
+            grid-auto-rows: 300px;
+            .help__section {
+                justify-content: flex-end;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    nav {
+        a {
+            &:first-of-type {
+                margin: 20px;
+            }
+            margin-right: 20px;
+            &:nth-of-type(5) {
+                margin-right: 20px;
+            }
+        }
+    }
+    .container {
+        max-width: 576px;
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 0;
+            grid-template-columns: 500px;
+        }
+        &__col-2 {
+            img {
+                position: relative;
+                margin-top: 40px;
+            }
+        }
+        &__platforms {
+            margin-top: 60px;
+            img {
+                height: 20px;
+            }
+        }
+    }
+    .all {
+        &__wrapper {
+            column-gap: 70px;
+        }
+    }
+    .help {
+        padding-bottom: 80px;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+    .title {
+        font-size: 25px;
+
+    }
+    nav {
+        a {
+            &:first-of-type {
+                display: none;
+            }
+            font-size: 14px;
+        }
+        button {
+            display: none;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 0;
+            grid-template-columns: 300px;
+        }
+        &__col-2 {
+            display: none;
+        }
+        &__platforms {
+            display: none;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+    .all {
+        padding: 50px 0 0 0;
+        &__wrapper {
+            grid-template-columns: 230px;
+        }
+    }
+    .help {
+        padding-bottom: 0;
+        &__subtitle {
+            font-size: 20px;
+            margin: 0;
+        }
+        &__wrapper-1 {
+            grid-template-columns: 300px;
+        }
+        &__wrapper-2 {
+            grid-template-columns: 300px;
+            .help__section {
+                justify-content: flex-start;
+            }
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}
