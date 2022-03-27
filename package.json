@@ -13,5 +13,7 @@
     "sass": "^1.49.9",
     "vite": "^2.8.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
+  }
 }

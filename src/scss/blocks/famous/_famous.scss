@@ -1,0 +1,23 @@
+.famous {
+    padding-top: 133px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    &__title {
+        text-align: center;
+    }
+    &__descr {
+        text-align: center;
+        margin-top: 14px;
+        margin-bottom: 98px;
+        font-family: 'Mulish';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    .slider {
+        margin-bottom: 24px;
+    }
+}
